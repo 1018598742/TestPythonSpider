@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'ArticleSpider.pipelines.ArticlespiderPipeline': 300,
+    'ArticleSpider.pipelines.JsonWithEncodingPipeline': 2,
     # 图片下载配置（后面数字是处理顺序，数字越小越早处理）
     # 'scrapy.pipelines.images.ImagesPipeline': 1,
     'ArticleSpider.pipelines.ArticleImagePipeline': 1,
