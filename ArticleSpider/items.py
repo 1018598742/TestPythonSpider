@@ -13,14 +13,26 @@ class ArticlespiderItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> neworigin
 class JobBoleArticleItem(scrapy.Item):
     title = scrapy.Field()
     create_date = scrapy.Field()
     url = scrapy.Field()
+<<<<<<< HEAD
+=======
+    url_object_id = scrapy.Field()
+>>>>>>> neworigin
     front_image_url = scrapy.Field()
     front_image_path = scrapy.Field()
     praise_nums = scrapy.Field()
     comment_nums = scrapy.Field()
     fav_nums = scrapy.Field()
     tags = scrapy.Field()
+<<<<<<< HEAD
     content = scrapy.Field()
+=======
+    content = scrapy.Field()
+>>>>>>> neworigin
