@@ -1,5 +1,5 @@
 .idea
 article.json
-./ArticleSpider/images
+./ArticleSpider/images/
 *.pyc
 ./ArticleSpider/__pycache__
