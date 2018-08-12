@@ -1,1 +1,4 @@
 .idea
+article.json
+./ArticleSpider/images
+*.pyc
