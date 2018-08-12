@@ -2,3 +2,4 @@
 article.json
 ./ArticleSpider/images
 *.pyc
+./ArticleSpider/__pycache__
